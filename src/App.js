@@ -37,7 +37,7 @@ function App() {
   const toggleTheme = () => setIsDark(!isDark);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portafolioCv-dy">
       <Routes>
         {/* Ruta principal */}
         <Route
