@@ -25,7 +25,7 @@ const Header = ({ isDark, toggleTheme }) => {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="container nav">
-        <div className="logo">Deyanira Arias</div>
+        <div className="logo">Desarrolladora</div>
 
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           {navLinks.map(link => (

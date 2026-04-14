@@ -11,7 +11,7 @@ import FloatingParticles from "./components/FloatingParticles";
 import ExperienceDetail from "./components/ExperienceDetail";
 import "./App.css";
 
-// ✅ Página principal separada en su propio componente
+// Pagina principal separada en su propio componente
 const MainPage = ({ isDark, toggleTheme }) => (
   <div className="App">
     <FloatingParticles />

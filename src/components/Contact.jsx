@@ -6,21 +6,21 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      info: 'deya.meme.08@gmail.com',
-      link: 'mailto:deya.meme.08@gmail.com'
+      info: 'yamiletc.arias.08@gmail.com',
+      link: 'mailto:yamiletc.arias.08@gmail.com'
     },
     {
       icon: <Phone size={24} />,
       title: 'Teléfono',
-      info: '+51 919 629 135',
-      link: 'tel:+51919629135'
+      info: '+51 904 605 635',
+      link: 'tel:+51904605635'
     },
-    {
+   /*  {
       icon: <MapPin size={24} />,
       title: 'Ubicación',
       info: 'Av. San Martin 167\nChincha, Ica, Perú',
       link: null
-    },
+    }, */
     {
       icon: <Languages size={24} />,
       title: 'Idiomas',

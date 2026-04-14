@@ -59,8 +59,11 @@ const Experience = () => {
       company: 'VAMAS - Empresa de Tecnología de la Información',
       description: 'Colaboración en el desarrollo de proyectos clave del área de TI y consumos de Apis.',
       images: [
-        '/assets/img/experiences/motorpark/usuario.create.png',
-        '/assets/img/experiences/motorpark/usuario.index.png'
+        '/assets/img/experiences/vamas/index.vista.png',
+        '/assets/img/experiences/vamas/index.edit.png',
+        '/assets/img/experiences/vamas/index.update.png',
+        '/assets/img/experiences/vamas/index.delete.png',
+        '/assets/img/experiences/vamas/index.caja.eliminado.png',
       ]
     },
     {
@@ -70,8 +73,14 @@ const Experience = () => {
       company: 'CREATOR - Empresa de Arquitectura e Implementación de Tecnología',
       description: ' desarrollo e implementación de soluciones tecnológicas, con enfoque en la creación y mantenimiento de páginas web.',
       images: [
-        '/assets/img/experiences/motorpark/usuario.create.png',
-        '/assets/img/experiences/motorpark/usuario.index.png'
+        '/assets/img/experiences/creator/acerca__de.1.png',
+        '/assets/img/experiences/creator/acerca__de.2.png',
+        '/assets/img/experiences/creator/acerca__de.3.png',
+        '/assets/img/experiences/creator/contacto.1.png',
+        '/assets/img/experiences/creator/contacto.2.png',
+        '/assets/img/experiences/creator/inicio.1.png',
+        '/assets/img/experiences/creator/inicio.2.png',
+        '/assets/img/experiences/creator/proyectos.1.png',
       ]
     }
   ];

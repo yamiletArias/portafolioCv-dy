@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="profile-section">
             <div className="profile-img">
-              <img src={`${process.env.PUBLIC_URL}/assets/img/img-profile.png`} alt="Deyanira Chacaliaza" className="profile-img-photo" />
+              <img src={`${process.env.PUBLIC_URL}/assets/img/IMG-20260101-WA0060.jpg`} alt="Deyanira Chacaliaza" className="profile-img-photo" />
               {/* <div className="profile-placeholder">💜</div> */}
             </div>
           </div>
@@ -20,7 +20,7 @@ const Hero = () => {
             <h1>Deyanira Yamilet Chacaliaza Arias</h1>
             <p className="subtitle">Ingeniera de Software con Inteligencia Artificial</p>
             <p className="hero-description">
-              Soy una persona con ganas de experimentar cosas nuevas en la tecnología,
+              Soy Peruana, una persona con ganas de experimentar cosas nuevas en la tecnología,
               con amplios conocimientos en desarrollo de backend y frontend.
               Soy una persona con gran capacidad para aprender rápidamente. Motivada por
               la innovación y el compromiso con la excelencia.

@@ -11,22 +11,22 @@ const Skills = () => {
     {
       icon: <Monitor size={24} />,
       title: 'Frontend',
-      skills: ['HTML', 'CSS', 'React', 'Bootstrap', 'CDNJS  ', 'jQuery', 'Angular']
+      skills: ['HTML', 'CSS', 'jQuery']
     },
     {
       icon: <Layers size={24}/>,
-      title: 'Frameworks',
-      skills: ['CodeIgniters']
+      title: 'Frameworks & Librerias',
+      skills: ['CodeIgniters', 'React', 'Angular', 'Bootstrap']
     },
     {
       icon: <Database size={24}/>,
       title: 'Bases de Datos',
-      skills: ['MySQL', 'MariaDB', 'Oracle Database', 'SQL browser']
+      skills: ['MySQL', 'MariaDB', 'Oracle', 'SQL Server']
     },
     {
       icon: <Globe size={24}/>,
-      title: 'APIs y Servicios',
-      skills: ['Consumo de REST API', 'Postman', 'JSON', 'AJAX', 'Fetch API']
+      title: 'APIs & Desarrollo',
+      skills: ['REST API', 'Postman', 'JSON', 'AJAX', 'Fetch API', 'Git']
     },
     {
       icon: <FileText size={24}/>,
@@ -34,14 +34,14 @@ const Skills = () => {
       skills: ['Word', 'Excel', 'PowerPoint', 'Power BI']
     },
     {
-      icon: <Share2 size={24}/>,
-      title: 'Manejo en redes sociales',
-      skills: ['Facebook', 'Instragram', 'Webs', 'Twitter', 'Telegram']
-    },
-    {
       icon: <Users size={24} />,
       title: 'Habilidades Blandas',
       skills: ['Trabajo en equipo', 'Liderazgo', 'Comunicación', 'Adaptabilidad', 'Innovación', 'Responsabilidad']
+    },
+    {
+      icon: <Share2 size={24}/>,
+      title: 'Otros',
+      skills: ['Facebook', 'Instragram', 'Webs', 'Twitter', 'Telegram']
     }
   ];
 

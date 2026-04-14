@@ -3,6 +3,12 @@ import React from 'react';
 const Education = () => {
   const education = [
     {
+      date: '2025 - 2026',
+      title: 'Ingeniería de Sistemas e Informatica',
+      institution: 'Universidad Tecnologica Del Perú',
+      description: 'Estudiante en convalidación'
+    },
+    {
       date: '2022 - 2025',
       title: 'Ingeniería de Software con Inteligencia Artificial',
       institution: 'SENATI - Servicio Nacional de Adiestramiento Industrial',
@@ -12,13 +18,13 @@ const Education = () => {
       date: '2018 - 2022',
       title: 'Educación Secundaria',
       institution: 'I.E.P. JEC Simón Bolivar',
-      description: 'Formación académica'
+      description: 'Formación académica secundaria'
     },
     {
       date: '2012 - 2017',
       title: 'Educación Primaria',
-      institution: 'I.E.P. Leonard Euler / I.E.P. 22228',
-      description: 'Formación académica'
+      institution: 'I.E.P. Leonard Euler / I.E.P. 22228 / I. E. P. Melchorita',
+      description: 'Formación académica primaria'
     }
   ];
 
