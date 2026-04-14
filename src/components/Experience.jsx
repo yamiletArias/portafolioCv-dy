@@ -8,6 +8,7 @@ const Experience = () => {
 
   /* const [expandedIndex, setExpandedIndex] = useState(null); */
   const navigate = useNavigate();
+  const img = (path) => `${process.env.PUBLIC_URL}${path}`;
 
   const experiences = [
     {
@@ -21,17 +22,17 @@ const Experience = () => {
         `${process.env.PUBLIC_URL}/assets/img/img_motorpark/usuario.index.png`,
       ] */
       images: [
-        '/assets/img/experiences/motorpark/usuario.create.png',
-        '/assets/img/experiences/motorpark/usuario.index.png',
-        '/assets/img/experiences/motorpark/registrar.cuentas.png',
-        '/assets/img/experiences/motorpark/vehiculo.index.png',
-        '/assets/img/experiences/motorpark/vehiculo.create.png',
-        '/assets/img/experiences/motorpark/credito.index.png',
-        '/assets/img/experiences/motorpark/cotizacion.index.png',
-        '/assets/img/experiences/motorpark/formato.modal.detallerequisitos.vista.png',
-        '/assets/img/experiences/motorpark/usuario.create.modal.persona.png',
-        '/assets/img/experiences/motorpark/detallerequisitos.formato.png',
-        '/assets/img/experiences/motorpark/requisitos.png'
+        img('/assets/img/experiences/motorpark/usuario.create.png'),
+        img('/assets/img/experiences/motorpark/usuario.index.png'),
+        img('/assets/img/experiences/motorpark/registrar.cuentas.png'),
+        img('/assets/img/experiences/motorpark/vehiculo.index.png'),
+        img('/assets/img/experiences/motorpark/vehiculo.create.png'),
+        img('/assets/img/experiences/motorpark/credito.index.png'),
+        img('/assets/img/experiences/motorpark/cotizacion.index.png'),
+        img('/assets/img/experiences/motorpark/formato.modal.detallerequisitos.vista.png'),
+        img('/assets/img/experiences/motorpark/usuario.create.modal.persona.png'),
+        img('/assets/img/experiences/motorpark/detallerequisitos.formato.png'),
+        img('/assets/img/experiences/motorpark/requisitos.png'),
       ]
     },
     {
@@ -41,15 +42,15 @@ const Experience = () => {
       company: 'Yonda - Motorpark | Fix 360 (Taller automotriz)',
       description: 'Implementación de un Sistema de Gestión Completo enfocado en las necesidades operativas de un taller automotriz.',
       images: [
-        '/assets/img/experiences/fix360/venta.register.png',
-        '/assets/img/experiences/fix360/productos.register.png',
-        '/assets/img/experiences/fix360/productos.listar.png',
-        '/assets/img/experiences/fix360/cotizacion.register.png',
-        '/assets/img/experiences/fix360/compras.register.png',
-        '/assets/img/experiences/fix360/colaboradores.register.png',
-        '/assets/img/experiences/fix360/cliente.register.png',
-        '/assets/img/experiences/fix360/cliente.asignar.vehiculo.png',
-        '/assets/img/experiences/fix360/arqueocaja.vista.png',
+        img('/assets/img/experiences/fix360/venta.register.png'),
+        img('/assets/img/experiences/fix360/productos.register.png'),
+        img('/assets/img/experiences/fix360/productos.listar.png'),
+        img('/assets/img/experiences/fix360/cotizacion.register.png'),
+        img('/assets/img/experiences/fix360/compras.register.png'),
+        img('/assets/img/experiences/fix360/colaboradores.register.png'),
+        img('/assets/img/experiences/fix360/cliente.register.png'),
+        img('/assets/img/experiences/fix360/cliente.asignar.vehiculo.png'),
+        img('/assets/img/experiences/fix360/arqueocaja.vista.png'),
       ]
     },
     {
@@ -59,11 +60,11 @@ const Experience = () => {
       company: 'VAMAS - Empresa de Tecnología de la Información',
       description: 'Colaboración en el desarrollo de proyectos clave del área de TI y consumos de Apis.',
       images: [
-        '/assets/img/experiences/vamas/index.vista.png',
-        '/assets/img/experiences/vamas/index.edit.png',
-        '/assets/img/experiences/vamas/index.update.png',
-        '/assets/img/experiences/vamas/index.delete.png',
-        '/assets/img/experiences/vamas/index.caja.eliminado.png',
+        img('/assets/img/experiences/vamas/index.vista.png'),
+        img('/assets/img/experiences/vamas/index.edit.png'),
+        img('/assets/img/experiences/vamas/index.update.png'),
+        img('/assets/img/experiences/vamas/index.delete.png'),
+        img('/assets/img/experiences/vamas/index.caja.eliminado.png'),
       ]
     },
     {
@@ -73,14 +74,14 @@ const Experience = () => {
       company: 'CREATOR - Empresa de Arquitectura e Implementación de Tecnología',
       description: ' desarrollo e implementación de soluciones tecnológicas, con enfoque en la creación y mantenimiento de páginas web.',
       images: [
-        '/assets/img/experiences/creator/acerca__de.1.png',
-        '/assets/img/experiences/creator/acerca__de.2.png',
-        '/assets/img/experiences/creator/acerca__de.3.png',
-        '/assets/img/experiences/creator/contacto.1.png',
-        '/assets/img/experiences/creator/contacto.2.png',
-        '/assets/img/experiences/creator/inicio.1.png',
-        '/assets/img/experiences/creator/inicio.2.png',
-        '/assets/img/experiences/creator/proyectos.1.png',
+        img('/assets/img/experiences/creator/acerca__de.1.png'),
+        img('/assets/img/experiences/creator/acerca__de.2.png'),
+        img('/assets/img/experiences/creator/acerca__de.3.png'),
+        img('/assets/img/experiences/creator/contacto.1.png'),
+        img('/assets/img/experiences/creator/contacto.2.png'),
+        img('/assets/img/experiences/creator/inicio.1.png'),
+        img('/assets/img/experiences/creator/inicio.2.png'),
+        img('/assets/img/experiences/creator/proyectos.1.png'),
       ]
     }
   ];
