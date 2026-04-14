@@ -3,7 +3,8 @@ import { Mail, Download } from 'lucide-react';
 
 const Hero = () => {
   // Define la ruta del CV
-  const cvFilePath = '/assets/docs/CV_DEYANIRA_CHACALIAZA_ARIAS_26.pdf';
+  /* const cvFilePath = '/assets/docs/CV_DEYANIRA_CHACALIAZA_ARIAS_26.pdf'; */
+  const cvFilePath = `${process.env.PUBLIC_URL}/assets/docs/CV_DEYANIRA_CHACALIAZA_ARIAS_26.pdf`;
 
   return (
     <section id="home" className="hero">
